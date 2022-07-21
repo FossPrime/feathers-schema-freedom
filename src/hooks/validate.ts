@@ -1,5 +1,5 @@
 import { HookContext, NextFunction } from '@feathersjs/feathers'
-import { BadRequest } from '../../../errors/lib'
+import { BadRequest } from '@feathersjs/errors'
 import { Schema } from '../schema'
 
 export const validateQuery =
